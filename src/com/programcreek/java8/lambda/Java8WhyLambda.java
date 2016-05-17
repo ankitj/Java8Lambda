@@ -6,6 +6,7 @@ public class Java8WhyLambda {
 
 	public static void main(String[] args) {
 		// create an array of dogs
+		
 		Dog d1 = new Dog("Max", 2, 50);
 		Dog d2 = new Dog("Rocky", 1, 30);
 		Dog d3 = new Dog("Bear", 3, 40);
