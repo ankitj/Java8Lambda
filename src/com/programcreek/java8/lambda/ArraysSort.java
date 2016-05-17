@@ -7,7 +7,8 @@ import java.util.stream.Stream;
 
 public class ArraysSort {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		Dog d1 = new Dog("Max", 2, 50);
 		Dog d2 = new Dog("Rocky", 1, 30);
 		Dog d3 = new Dog("Bear", 3, 40);
