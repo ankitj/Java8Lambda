@@ -15,7 +15,7 @@ public class Java8Filter<T> {
 		list.add("python");
 		list.add("lisp");
 		list.add("c++");
-
+		
 		//filter function
 		Stream<String> stream = list.stream().filter(p -> p.length() > 3);
 		String[] arr = stream.toArray(String[]::new);
